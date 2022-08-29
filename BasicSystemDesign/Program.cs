@@ -1,3 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Entities.Entities;
+using EntitiesCollection = EntitiesCollection.EntitiesCollection;
 
-Console.WriteLine("Hello, World!");
+namespace BasicSystemDesign;
+
+class BasicSystemDesignTest
+{
+    static void Main()
+    {
+        var plain = new Plain(1, "AN-225 Mriya", 1500);
+        var bird = new Bird(2, "Twitty", 200);
+        var crow = new Crow(3, "Itachi", 180);
+        var dog = new Dog(4, "Hatiko", 350);
+        var cat = new Cat(5, "Thomas", 220);
+
+        var entities = new global::EntitiesCollection.EntitiesCollection();
+        entities.AddEntity(plain);
+        entities.AddEntity(bird);
+        entities.AddEntity(crow);
+        entities.AddEntity(dog);
+        entities.AddEntity(cat);
+        
+        entities.ShowAll();
+    }
+}
