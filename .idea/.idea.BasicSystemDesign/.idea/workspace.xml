@@ -4,11 +4,36 @@
     <projectFile>BasicSystemDesign/BasicSystemDesign.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087e0d09-af64-48bd-a268-9b05bfb63601" name="Changes" comment="" />
+    <list default="true" id="087e0d09-af64-48bd-a268-9b05bfb63601" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BasicSystemDesign.BLL/CollectionWrappers/EntitiesWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicSystemDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicSystemDesign/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicSystemDesign.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicSystemDesign/BasicSystemDesign.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.Core/BasicSystemDesign.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicSystemDesign/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.Core/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntitiesCollection/EntitiesCollection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntitiesCollection/EntitiesCollection.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.BLL/BasicSystemDesign.BLL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Entities/Bird.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Bird.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Entities/Cat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Cat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Entities/Crow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Crow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Entities/Dog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Dog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Entities/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Entities/Plain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Plain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Entity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/BasicSystemDesign.DAL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Interfaces/ICreature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Interfaces/ICreature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Interfaces/IFlyable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Interfaces/IFlyable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Interfaces/IMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Interfaces/IMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/Interfaces/IWalkable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasicSystemDesign.DAL/Interfaces/IWalkable.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BasicSystemDesign.BLL/CollectionWrappers/EntitiesWrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Bird.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Cat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicSystemDesign.DAL/Entities/Crow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -18,14 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BasicSystemDesign" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -35,7 +60,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BasicSystemDesign/BasicSystemDesign.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BasicSystemDesign.Core/BasicSystemDesign.Core.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -54,14 +79,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661794605913</updated>
-      <workItem from="1661794614573" duration="31000" />
+      <workItem from="1661794614573" duration="4848000" />
+      <workItem from="1661858517392" duration="2923000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
