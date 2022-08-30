@@ -1,6 +1,6 @@
-﻿using Entities.Interfaces;
+﻿using BasicSystemDesign.DAL.Interfaces;
 
-namespace Entities.Entities;
+namespace BasicSystemDesign.DAL.Entities;
 
 public class Crow : IEntity, ICreature, IFlyable
 {

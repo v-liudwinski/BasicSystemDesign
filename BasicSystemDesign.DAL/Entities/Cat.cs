@@ -1,10 +1,10 @@
-﻿using Entities.Interfaces;
+﻿using BasicSystemDesign.DAL.Interfaces;
 
-namespace Entities.Entities;
+namespace BasicSystemDesign.DAL.Entities;
 
-public class Dog : IEntity, ICreature, IWalkable
+public class Cat : IEntity, ICreature, IWalkable
 {
-    public Dog(int id, string name, double maxSprintDistance)
+    public Cat(int id, string name, double maxSprintDistance)
     {
         Id = id;
         Name = name;
@@ -14,7 +14,7 @@ public class Dog : IEntity, ICreature, IWalkable
     public int Id { get; set; }
     public string Name { get; set; }
     public double MaxSprintDistance { get; set; }
-    private const string AnimalType = "Dog";
+    private const string AnimalType = "Cat";
     
     public override string ToString()
     {

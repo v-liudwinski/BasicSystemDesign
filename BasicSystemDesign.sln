@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSystemDesign", "BasicSystemDesign\BasicSystemDesign.csproj", "{1091E752-9DFD-4F9E-B1C0-C0B789DCD781}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSystemDesign.Core", "BasicSystemDesign.Core\BasicSystemDesign.Core.csproj", "{1091E752-9DFD-4F9E-B1C0-C0B789DCD781}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{392CB719-12DE-4F95-A84A-4E1AF6EB4798}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSystemDesign.DAL", "BasicSystemDesign.DAL\BasicSystemDesign.DAL.csproj", "{392CB719-12DE-4F95-A84A-4E1AF6EB4798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesCollection", "EntitiesCollection\EntitiesCollection.csproj", "{37D174AD-8107-4455-9AE4-F766E8093D8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSystemDesign.BLL", "BasicSystemDesign.BLL\BasicSystemDesign.BLL.csproj", "{37D174AD-8107-4455-9AE4-F766E8093D8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

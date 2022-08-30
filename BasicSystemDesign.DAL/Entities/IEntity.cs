@@ -1,4 +1,4 @@
-﻿namespace Entities.Entities;
+﻿namespace BasicSystemDesign.DAL.Entities;
 
 public interface IEntity
 {

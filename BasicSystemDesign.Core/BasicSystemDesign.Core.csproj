@@ -5,11 +5,12 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>BasicSystemDesign</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EntitiesCollection\EntitiesCollection.csproj" />
-      <ProjectReference Include="..\Entity\Entity.csproj" />
+      <ProjectReference Include="..\BasicSystemDesign.BLL\BasicSystemDesign.BLL.csproj" />
+      <ProjectReference Include="..\BasicSystemDesign.DAL\BasicSystemDesign.DAL.csproj" />
     </ItemGroup>
 
 </Project>

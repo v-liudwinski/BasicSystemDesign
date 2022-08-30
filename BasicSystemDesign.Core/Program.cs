@@ -1,9 +1,9 @@
-﻿using Entities.Entities;
-using EntitiesCollection = EntitiesCollection.EntitiesCollection;
+﻿using BasicSystemDesign.DAL.Entities;
+using BasicSystemDesign.Bll.CollectionWrappers;
 
 namespace BasicSystemDesign;
 
-class BasicSystemDesignTest
+class Program
 {
     static void Main()
     {
@@ -13,7 +13,7 @@ class BasicSystemDesignTest
         var dog = new Dog(4, "Hatiko", 350);
         var cat = new Cat(5, "Thomas", 220);
 
-        var entities = new global::EntitiesCollection.EntitiesCollection();
+        var entities = new EntitiesWrapper();
         entities.AddEntity(plain);
         entities.AddEntity(bird);
         entities.AddEntity(crow);

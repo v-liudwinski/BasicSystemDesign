@@ -1,4 +1,4 @@
-﻿namespace Entities.Interfaces;
+﻿namespace BasicSystemDesign.DAL.Interfaces;
 
 public interface IFlyable
 {
